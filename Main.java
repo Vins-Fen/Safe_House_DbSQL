@@ -17,7 +17,7 @@ public class Main {
             String url = "jdbc:mysql://127.0.0.1:3306/Piattaforma_Prenotazione_Camere";
             try {
                 Class.forName("com.mysql.jdbc.Driver");
-                Connection connection = DriverManager.getConnection(url, "root", "Xbox360xp!");
+                Connection connection = DriverManager.getConnection(url, "root", "PASSWORD");
                 System.out.println("Inserire la scelta che si vuole effettuare\n" +
                         "1) Inserimento\n" +
                         "2) Modifica\n" +
